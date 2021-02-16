@@ -1,0 +1,25 @@
+.hero {
+    background-image: url("../images/heroBG-1440x900.jpg");
+    background-position: center 95%;
+    background-repeat: space;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+
+    &__text {
+        position: relative;
+        left: 50%;
+        top: 20%;
+        width: 45%;
+        text-align: left;
+        &__heading {
+            font-size: $font-lg;
+        }
+    }
+
+    &__cta {
+        font-size: $font-sm;
+    }
+}

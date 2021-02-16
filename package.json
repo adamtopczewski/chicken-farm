@@ -1,0 +1,11 @@
+{
+  "name": "chicken-farm",
+  "version": "1.0.0",
+  "description": "Landing Page for \"Feel Good Farm\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Topczewski",
+  "license": "ISC"
+}

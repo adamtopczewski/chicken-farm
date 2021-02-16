@@ -1,0 +1,34 @@
+header, .header {
+    position: relative;
+    width: 100%;
+    nav {
+        position: relative;
+        padding: 1.5rem 1.5rem;
+        margin: 0 auto;
+        text-shadow: 2px 2px 4px #000000;
+        }
+
+    &__logo {
+        padding-left: 1.5rem;
+        font-size: $font-sm;
+        &__svg {
+            color: $primary-color;
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
+    }
+
+    &__links {
+        display: inline-block;
+        display: flex;
+        list-style: none;
+        font-size: $font-sm;
+        margin-right: 3rem;
+        li {            
+            cursor: pointer;
+            &:not(:last-child){
+                margin-right: 1rem;
+            }
+        }
+    }
+}
